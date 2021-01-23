@@ -9,7 +9,9 @@ namespace GenericsIntro
             MyList<string> isimler = new MyList<string>();
             isimler.Add("engin");
 
-            //Console.WriteLine("Hello World!");
+            Console.WriteLine(isimler.Length);
+            isimler.Add("okan");
+            Console.WriteLine(isimler.Length);
         }
     }
 }
